@@ -5,6 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     background: rgb(31, 31, 31);
+    overflow: hidden;
 }
 
 main {
@@ -23,7 +24,7 @@ main {
 
 #qr {
     width:90%;
-    height:60%;
+    height:auto;
     margin-bottom:30px;
     border-radius: 10px;
     overflow:hidden;
@@ -36,7 +37,7 @@ main {
 
 #desc {
     text-align: center;
-    height:30%;
+    height:auto;
     width:90%;
     overflow:hidden;
 }
